@@ -6,7 +6,7 @@ const photo = document.querySelector("#photo")
 
 function change_pic(pic) {
     text.innerHTML = "here's a picture of " + pic + "."
-    photo.src = "../images/" + pic + ".jpg" 
+    photo.src = "images/" + pic + ".jpg" 
 }
 
 pic_buttons.forEach(button => {
